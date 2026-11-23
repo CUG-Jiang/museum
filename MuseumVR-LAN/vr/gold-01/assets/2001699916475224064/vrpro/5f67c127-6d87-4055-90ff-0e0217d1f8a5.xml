@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<krpano version="1.21" title="Virtual Tour"> 
+  <!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->  
+  <!--
+	    For an alternative skin design either change the <skin_settings> values 
+	    from above or optionally include one of the predefined designs from below.
+	-->  
+  <!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->  
+  <!-- <include url="skin/vtourskin_design_glass.xml"       /> -->  
+  <!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->  
+  <!-- <include url="skin/vtourskin_design_117.xml"         /> -->  
+  <!-- <include url="skin/vtourskin_design_117round.xml"    /> -->  
+  <!-- <include url="skin/vtourskin_design_black.xml"       /> -->  
+  <action autorun="onstart" name="startup">loadscene(get(scene[0].name),null,null,BLEND(0.5)); set(view.tx,get(image.ox)); set(view.ty,get(image.oy)); set(view.tz,get(image.oz)); js(readyAddScene());</action>  
+  <scene model="true" name="scene_001" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/p5urqnbn4e6osnuarg98/vtour/panos/p5urqnbn4e6osnuarg98.tiles/thumb.jpg" title="16成矿类型" type="null"> 
+    <view hlookat="179.48040788270492" vlookat="1.7096804878134093" fovtype="MFOV" fov="128.30183079967995" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/p5urqnbn4e6osnuarg98/vtour/panos/p5urqnbn4e6osnuarg98.tiles/preview.jpg"/>  
+    <image style="jypano_001" ox="564.6" oy="189.747" oz="-484.8"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/p5urqnbn4e6osnuarg98/vtour/panos/p5urqnbn4e6osnuarg98.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="-476.40000000000003,-114.39999999999999,-537.5" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_001" name="jypano_001" ox="537.5" oy="233.731" oz="-476.40000000000003"/>  
+  <scene model="true" name="scene_002" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/aehwbsn504zpz59e4adr/vtour/panos/aehwbsn504zpz59e4adr.tiles/thumb.jpg" title="18分布规律" type="null"> 
+    <view hlookat="-96.4871906829737" vlookat="2.0601206670851355" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/aehwbsn504zpz59e4adr/vtour/panos/aehwbsn504zpz59e4adr.tiles/preview.jpg"/>  
+    <image style="jypano_002" ox="112.8" oy="58.926" oz="-669.2"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/aehwbsn504zpz59e4adr/vtour/panos/aehwbsn504zpz59e4adr.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="-616.2,-120.5,-239.5" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_002" name="jypano_002" ox="239.5" oy="194.356" oz="-616.2"/>  
+  <scene model="true" name="scene_003" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/pyr0kyusgnqdurhyimtf/vtour/panos/pyr0kyusgnqdurhyimtf.tiles/thumb.jpg" title="17成矿时代" type="null"> 
+    <view hlookat="244.24704882436595" vlookat="0.81512957987156" fovtype="MFOV" fov="121.38125305545366" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/pyr0kyusgnqdurhyimtf/vtour/panos/pyr0kyusgnqdurhyimtf.tiles/preview.jpg"/>  
+    <image style="jypano_003" ox="350.5" oy="163.594" oz="-675"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/pyr0kyusgnqdurhyimtf/vtour/panos/pyr0kyusgnqdurhyimtf.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="-589.5,-107.89999999999999,-410.40000000000003" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_003" name="jypano_003" ox="410.40000000000003" oy="184.965" oz="-589.5"/>  
+  <scene model="true" name="scene_004" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/e3u6xmmijedqz8yy411q/vtour/panos/e3u6xmmijedqz8yy411q.tiles/thumb.jpg" title="5黄金之幕" type="null"> 
+    <view hlookat="272.47062514132585" vlookat="-3.220993383792012" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/e3u6xmmijedqz8yy411q/vtour/panos/e3u6xmmijedqz8yy411q.tiles/preview.jpg"/>  
+    <image style="jypano_004" ox="344.8" oy="112.239" oz="256"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/e3u6xmmijedqz8yy411q/vtour/panos/e3u6xmmijedqz8yy411q.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048,3840"/>  
+      <depthmap background="pano" center="209.39999999999998,-130.9,-357.90000000000003" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_004" name="jypano_004" ox="357.90000000000003" oy="186.65" oz="209.39999999999998"/>  
+  <scene model="true" name="scene_005" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/s7bbycsi0nh7k9s9jznk/vtour/panos/s7bbycsi0nh7k9s9jznk.tiles/thumb.jpg" title="19矿山类型" type="null"> 
+    <view hlookat="-67.8918193506115" vlookat="3.0238177796268073" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/s7bbycsi0nh7k9s9jznk/vtour/panos/s7bbycsi0nh7k9s9jznk.tiles/preview.jpg"/>  
+    <image style="jypano_005" ox="-107.9" oy="107.976" oz="-588.1"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/s7bbycsi0nh7k9s9jznk/vtour/panos/s7bbycsi0nh7k9s9jznk.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="-555.3,-117.39999999999999,-68.0" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_005" name="jypano_005" ox="68.0" oy="201.811" oz="-555.3"/>  
+  <scene model="true" name="scene_006" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/7ll8rkptjs213ubdr7n8/vtour/panos/7ll8rkptjs213ubdr7n8.tiles/thumb.jpg" title="12黄金分布" type="null"> 
+    <view hlookat="56.34345822042285" vlookat="6.74263050529698" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/7ll8rkptjs213ubdr7n8/vtour/panos/7ll8rkptjs213ubdr7n8.tiles/preview.jpg"/>  
+    <image style="jypano_006" ox="-157.8" oy="129.634" oz="-95.9"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/7ll8rkptjs213ubdr7n8/vtour/panos/7ll8rkptjs213ubdr7n8.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048,3840"/>  
+      <depthmap background="pano" center="-88.4,-118.0,-144.5" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_006" name="jypano_006" ox="144.5" oy="139.767" oz="-88.4"/>  
+  <scene model="true" name="scene_007" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/lsf6v6lhycqhs8jhoh6e/vtour/panos/lsf6v6lhycqhs8jhoh6e.tiles/thumb.jpg" title="10中国金矿资源" type="null"> 
+    <view hlookat="-52.35093737990104" vlookat="5.886101832405875" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/lsf6v6lhycqhs8jhoh6e/vtour/panos/lsf6v6lhycqhs8jhoh6e.tiles/preview.jpg"/>  
+    <image style="jypano_007" ox="-7.5" oy="158.446" oz="-489.6"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/lsf6v6lhycqhs8jhoh6e/vtour/panos/lsf6v6lhycqhs8jhoh6e.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048,3840"/>  
+      <depthmap background="pano" center="-246.70000000000002,-129.6,-185.3" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_007" name="jypano_007" ox="185.3" oy="183.167" oz="-246.70000000000002"/>  
+  <scene model="true" name="scene_008" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/7qmlxx08kgtrmx36e9s1/vtour/panos/7qmlxx08kgtrmx36e9s1.tiles/thumb.jpg" title="21社会属性" type="null"> 
+    <view hlookat="-12.324925515812225" vlookat="1.6882596732839334" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/7qmlxx08kgtrmx36e9s1/vtour/panos/7qmlxx08kgtrmx36e9s1.tiles/preview.jpg"/>  
+    <image style="jypano_008" ox="-335.8" oy="166.902" oz="-12.5"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/7qmlxx08kgtrmx36e9s1/vtour/panos/7qmlxx08kgtrmx36e9s1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="-54.6,-74.3,51.2" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_008" name="jypano_008" ox="-51.2" oy="196.061" oz="-54.6"/>  
+  <scene model="true" name="scene_009" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/eup462njptngirrdvi7n/vtour/panos/eup462njptngirrdvi7n.tiles/thumb.jpg" title="20自然属性" type="null"> 
+    <view hlookat="-11.293863696432698" vlookat="-1.8571031773145092" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/eup462njptngirrdvi7n/vtour/panos/eup462njptngirrdvi7n.tiles/preview.jpg"/>  
+    <image style="jypano_009" ox="-271.7" oy="188.538" oz="-430.7"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/eup462njptngirrdvi7n/vtour/panos/eup462njptngirrdvi7n.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="-372.6,-111.3,76.3" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_009" name="jypano_009" ox="-76.3" oy="197.338" oz="-372.6"/>  
+  <scene model="true" name="scene_010" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/5ee83boqi5uyfujalbqi/vtour/panos/5ee83boqi5uyfujalbqi.tiles/thumb.jpg" title="23黄金制品" type="null"> 
+    <view hlookat="3.357312905039742" vlookat="3.984655930031665" fovtype="MFOV" fov="128.30183079967995" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/5ee83boqi5uyfujalbqi/vtour/panos/5ee83boqi5uyfujalbqi.tiles/preview.jpg"/>  
+    <image style="jypano_010" ox="-210" oy="195.558" oz="649.3"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/5ee83boqi5uyfujalbqi/vtour/panos/5ee83boqi5uyfujalbqi.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="599.9,-59.0,69.89999999999999" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_010" name="jypano_010" ox="-69.89999999999999" oy="188.977" oz="599.9"/>  
+  <scene model="true" name="scene_011" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/jlcd2js1n5ikounmpljg/vtour/panos/jlcd2js1n5ikounmpljg.tiles/thumb.jpg" title="22金都历史" type="null"> 
+    <view hlookat="-84.68870708732521" vlookat="3.7045903514952547" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/jlcd2js1n5ikounmpljg/vtour/panos/jlcd2js1n5ikounmpljg.tiles/preview.jpg"/>  
+    <image style="jypano_011" ox="78.8" oy="77.05" oz="221.5"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/jlcd2js1n5ikounmpljg/vtour/panos/jlcd2js1n5ikounmpljg.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="284.3,-60.3,-151.0" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_011" name="jypano_011" ox="151.0" oy="189.372" oz="284.3"/>  
+  <scene model="true" name="scene_012" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/nbibb0wnhkff06ftqwaz/vtour/panos/nbibb0wnhkff06ftqwaz.tiles/thumb.jpg" title="入口" type="null"> 
+    <view hlookat="-85.45491548501359" vlookat="3.442073202133344" fovtype="MFOV" fov="121.17521995194161" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/nbibb0wnhkff06ftqwaz/vtour/panos/nbibb0wnhkff06ftqwaz.tiles/preview.jpg"/>  
+    <image style="jypano_012" ox="996.4" oy="160.607" oz="570.9"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/nbibb0wnhkff06ftqwaz/vtour/panos/nbibb0wnhkff06ftqwaz.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048,3840"/>  
+      <depthmap background="pano" center="572.0,-99.3,-968.3" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_012" name="jypano_012" ox="968.3" oy="232.296" oz="572.0"/>  
+  <scene model="true" name="scene_013" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/6zotaumjsj0555u58wtr/vtour/panos/6zotaumjsj0555u58wtr.tiles/thumb.jpg" title="7黄金分布" type="null"> 
+    <view hlookat="181.63714281303206" vlookat="11.558305154107066" fovtype="MFOV" fov="128.30183079967995" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/6zotaumjsj0555u58wtr/vtour/panos/6zotaumjsj0555u58wtr.tiles/preview.jpg"/>  
+    <image style="jypano_013" ox="435.3" oy="14.84" oz="-124.1"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/6zotaumjsj0555u58wtr/vtour/panos/6zotaumjsj0555u58wtr.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048,3840"/>  
+      <depthmap background="pano" center="-119.30000000000001,-100.69999999999999,-424.6" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_013" name="jypano_013" ox="424.6" oy="140.778" oz="-119.30000000000001"/>  
+  <scene model="true" name="scene_014" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/hzeedgfihszsf4f8o737/vtour/panos/hzeedgfihszsf4f8o737.tiles/thumb.jpg" title="6黄金分布" type="null"> 
+    <view hlookat="164.22592036636487" vlookat="10.697818141373636" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/hzeedgfihszsf4f8o737/vtour/panos/hzeedgfihszsf4f8o737.tiles/preview.jpg"/>  
+    <image style="jypano_014" ox="289.6" oy="117.22" oz="36.2"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/hzeedgfihszsf4f8o737/vtour/panos/hzeedgfihszsf4f8o737.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048,3840"/>  
+      <depthmap background="pano" center="-20.599999999999998,-80.4,-312.5" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_014" name="jypano_014" ox="312.5" oy="145.921" oz="-20.599999999999998"/>  
+  <scene model="true" name="scene_015" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/d0wt06lfupaud2dtg4c8/vtour/panos/d0wt06lfupaud2dtg4c8.tiles/thumb.jpg" title="9烟台金矿资源" type="null"> 
+    <view hlookat="-82.78904837091875" vlookat="-16.177343577345646" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/d0wt06lfupaud2dtg4c8/vtour/panos/d0wt06lfupaud2dtg4c8.tiles/preview.jpg"/>  
+    <image style="jypano_015" ox="214.1" oy="136.687" oz="-545"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/d0wt06lfupaud2dtg4c8/vtour/panos/d0wt06lfupaud2dtg4c8.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048,3840"/>  
+      <depthmap background="pano" center="-294.0,-77.60000000000001,-287.40000000000003" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_015" name="jypano_015" ox="287.40000000000003" oy="88.328" oz="-294.0"/>  
+  <scene model="true" name="scene_016" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/5pyj0ybt0hndycudfquz/vtour/panos/5pyj0ybt0hndycudfquz.tiles/thumb.jpg" title="8黄金分布" type="null"> 
+    <view hlookat="243.90650754155732" vlookat="9.691476624744537" fovtype="MFOV" fov="128.30183079967995" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/5pyj0ybt0hndycudfquz/vtour/panos/5pyj0ybt0hndycudfquz.tiles/preview.jpg"/>  
+    <image style="jypano_016" ox="386.5" oy="71.517" oz="-359.5"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/5pyj0ybt0hndycudfquz/vtour/panos/5pyj0ybt0hndycudfquz.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048,3840"/>  
+      <depthmap background="pano" center="-259.1,-88.3,-388.6" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_016" name="jypano_016" ox="388.6" oy="162.557" oz="-259.1"/>  
+  <scene model="true" name="scene_017" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/5mjjgno6tr34rnruieh4/vtour/panos/5mjjgno6tr34rnruieh4.tiles/thumb.jpg" title="11黄金分布" type="null"> 
+    <view hlookat="-3.623166209387693" vlookat="5.7026664235711655" fovtype="MFOV" fov="128.30183079967995" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/5mjjgno6tr34rnruieh4/vtour/panos/5mjjgno6tr34rnruieh4.tiles/preview.jpg"/>  
+    <image style="jypano_017" ox="-173.9" oy="94.175" oz="-307.6"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/5mjjgno6tr34rnruieh4/vtour/panos/5mjjgno6tr34rnruieh4.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048,3840"/>  
+      <depthmap background="pano" center="-170.79999999999998,-75.7,-136.9" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_017" name="jypano_017" ox="136.9" oy="163.243" oz="-170.79999999999998"/>  
+  <scene model="true" name="scene_018" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/bdpjsolteelmulstlgl7/vtour/panos/bdpjsolteelmulstlgl7.tiles/thumb.jpg" title="3大厅" type="null"> 
+    <view hlookat="-80.78422466627663" vlookat="3.3882581472146365" fovtype="MFOV" fov="135.3495770696113" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/bdpjsolteelmulstlgl7/vtour/panos/bdpjsolteelmulstlgl7.tiles/preview.jpg"/>  
+    <image style="jypano_018" ox="711.5" oy="157.895" oz="602.6"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/bdpjsolteelmulstlgl7/vtour/panos/bdpjsolteelmulstlgl7.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048,3840"/>  
+      <depthmap background="pano" center="542.5,-114.99999999999999,-740.6" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_018" name="jypano_018" ox="740.6" oy="239.238" oz="542.5"/>  
+  <scene model="true" name="scene_019" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/e4jxcnwdbqf2gplzh1ha/vtour/panos/e4jxcnwdbqf2gplzh1ha.tiles/thumb.jpg" title="13黄金分布" type="null"> 
+    <view hlookat="85.36499899266477" vlookat="2.8452424159317493" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/e4jxcnwdbqf2gplzh1ha/vtour/panos/e4jxcnwdbqf2gplzh1ha.tiles/preview.jpg"/>  
+    <image style="jypano_019" ox="0" oy="162.418" oz="0"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/e4jxcnwdbqf2gplzh1ha/vtour/panos/e4jxcnwdbqf2gplzh1ha.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048,3840"/>  
+      <depthmap background="pano" center="-29.9,-81.69999999999999,-199.6" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_019" name="jypano_019" ox="199.6" oy="165.489" oz="-29.9"/>  
+  <scene model="true" name="scene_020" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/kep90ofc8mtx97hhltvu/vtour/panos/kep90ofc8mtx97hhltvu.tiles/thumb.jpg" title="4金河之源" type="null"> 
+    <view hlookat="167.4279214726877" vlookat="8.325522703319944" fovtype="MFOV" fov="128.30183079967995" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/kep90ofc8mtx97hhltvu/vtour/panos/kep90ofc8mtx97hhltvu.tiles/preview.jpg"/>  
+    <image style="jypano_020" ox="545.1" oy="158.169" oz="269.2"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/kep90ofc8mtx97hhltvu/vtour/panos/kep90ofc8mtx97hhltvu.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048,3840"/>  
+      <depthmap background="pano" center="201.9,-106.80000000000001,-570.4" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_020" name="jypano_020" ox="570.4" oy="237.37" oz="201.9"/>  
+  <scene model="true" name="scene_021" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/hueuxs1jwtxn6o3mj544/vtour/panos/hueuxs1jwtxn6o3mj544.tiles/thumb.jpg" title="14成矿特点" type="null"> 
+    <view hlookat="186.99600742529498" vlookat="-1.2222649771557346" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/hueuxs1jwtxn6o3mj544/vtour/panos/hueuxs1jwtxn6o3mj544.tiles/preview.jpg"/>  
+    <image style="jypano_021" ox="641.1" oy="163.981" oz="-24.9"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/hueuxs1jwtxn6o3mj544/vtour/panos/hueuxs1jwtxn6o3mj544.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048,3840"/>  
+      <depthmap background="pano" center="-37.1,-125.1,-601.7" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_021" name="jypano_021" ox="601.7" oy="236.095" oz="-37.1"/>  
+  <scene model="true" name="scene_022" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/z2vibrrtb1vmenfjtfrt/vtour/panos/z2vibrrtb1vmenfjtfrt.tiles/thumb.jpg" title="15走道" type="null"> 
+    <view hlookat="181.334840978394" vlookat="-0.27102754012670127" fovtype="MFOV" fov="128.30183079967995" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/z2vibrrtb1vmenfjtfrt/vtour/panos/z2vibrrtb1vmenfjtfrt.tiles/preview.jpg"/>  
+    <image style="jypano_022" ox="656.4" oy="125.586" oz="-229.4"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/z2vibrrtb1vmenfjtfrt/vtour/panos/z2vibrrtb1vmenfjtfrt.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048,3840"/>  
+      <depthmap background="pano" center="-269.6,-101.8,-619.1" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_022" name="jypano_022" ox="619.1" oy="186.705" oz="-269.6"/>  
+  <scene model="true" name="scene_023" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/feh6rj5cmb2tmz4d9ezl/vtour/panos/feh6rj5cmb2tmz4d9ezl.tiles/thumb.jpg" title="1门口" type="null"> 
+    <view hlookat="-91.1775125339272" vlookat="0.6748886187145949" fovtype="MFOV" fov="128.30183079967995" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/feh6rj5cmb2tmz4d9ezl/vtour/panos/feh6rj5cmb2tmz4d9ezl.tiles/preview.jpg"/>  
+    <image style="jypano_023" ox="1271.1" oy="159.627" oz="566.6"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/feh6rj5cmb2tmz4d9ezl/vtour/panos/feh6rj5cmb2tmz4d9ezl.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048,3840"/>  
+      <depthmap background="pano" center="566.6,-72.0,-1218.9" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_023" name="jypano_023" ox="1218.9" oy="210.456" oz="566.6"/>  
+  <scene model="true" name="scene_024" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/q2odvc76yyc6tiqupo95/vtour/panos/q2odvc76yyc6tiqupo95.tiles/thumb.jpg" title="27产业链" type="null"> 
+    <view hlookat="90.69077681205432" vlookat="-3.714380933051079" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/q2odvc76yyc6tiqupo95/vtour/panos/q2odvc76yyc6tiqupo95.tiles/preview.jpg"/>  
+    <image style="jypano_024" ox="394.4" oy="198.887" oz="1300.6"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/q2odvc76yyc6tiqupo95/vtour/panos/q2odvc76yyc6tiqupo95.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="1340.1,-68.89999999999999,-527.7" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_024" name="jypano_024" ox="527.7" oy="201.96" oz="1340.1"/>  
+  <scene model="true" name="scene_025" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/htygilmzk05yvwspi3k2/vtour/panos/htygilmzk05yvwspi3k2.tiles/thumb.jpg" title="28产业链" type="null"> 
+    <view hlookat="94.18243825649476" vlookat="-1.5510386478096836" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/htygilmzk05yvwspi3k2/vtour/panos/htygilmzk05yvwspi3k2.tiles/preview.jpg"/>  
+    <image style="jypano_025" ox="615.3" oy="198.833" oz="1274.5"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/htygilmzk05yvwspi3k2/vtour/panos/htygilmzk05yvwspi3k2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="1317.1,-67.9,-749.0" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_025" name="jypano_025" ox="749.0" oy="200.396" oz="1317.1"/>  
+  <scene model="true" name="scene_026" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/qae74axyj6mvfzjrey9v/vtour/panos/qae74axyj6mvfzjrey9v.tiles/thumb.jpg" title="24黄金制品" type="null"> 
+    <view hlookat="5.402723241558872" vlookat="4.220896361733062" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/qae74axyj6mvfzjrey9v/vtour/panos/qae74axyj6mvfzjrey9v.tiles/preview.jpg"/>  
+    <image style="jypano_026" ox="-168.4" oy="197.401" oz="1016.9"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/qae74axyj6mvfzjrey9v/vtour/panos/qae74axyj6mvfzjrey9v.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="1025.8,-76.0,64.5" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_026" name="jypano_026" ox="-64.5" oy="168.005" oz="1025.8"/>  
+  <scene model="true" name="scene_027" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/yq3zfguuyb0cb01pyeie/vtour/panos/yq3zfguuyb0cb01pyeie.tiles/thumb.jpg" title="29玲珑金矿" type="null"> 
+    <view hlookat="185.02194232658246" vlookat="2.025426988548196" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/yq3zfguuyb0cb01pyeie/vtour/panos/yq3zfguuyb0cb01pyeie.tiles/preview.jpg"/>  
+    <image style="jypano_027" ox="742.2" oy="198.589" oz="1225.6"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/yq3zfguuyb0cb01pyeie/vtour/panos/yq3zfguuyb0cb01pyeie.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="1251.1,-80.0,-839.1999999999999" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_027" name="jypano_027" ox="839.1999999999999" oy="211.119" oz="1251.1"/>  
+  <scene model="true" name="scene_028" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/y2cxapvv93tm0nfb32xr/vtour/panos/y2cxapvv93tm0nfb32xr.tiles/thumb.jpg" title="33产金历史" type="null"> 
+    <view hlookat="-84.59213806559359" vlookat="1.1674743172516597" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/y2cxapvv93tm0nfb32xr/vtour/panos/y2cxapvv93tm0nfb32xr.tiles/preview.jpg"/>  
+    <image style="jypano_028" ox="157.5" oy="195.675" oz="666.8"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/y2cxapvv93tm0nfb32xr/vtour/panos/y2cxapvv93tm0nfb32xr.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="546.4000000000001,-95.19999999999999,-100.49999999999999" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_028" name="jypano_028" ox="100.49999999999999" oy="180.347" oz="546.4000000000001"/>  
+  <scene model="true" name="scene_029" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/e1k6b3hrm5qdobrmvyl5/vtour/panos/e1k6b3hrm5qdobrmvyl5.tiles/thumb.jpg" title="32黄金产量" type="null"> 
+    <view hlookat="-88.90582534913295" vlookat="2.1317959440080987" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/e1k6b3hrm5qdobrmvyl5/vtour/panos/e1k6b3hrm5qdobrmvyl5.tiles/preview.jpg"/>  
+    <image style="jypano_029" ox="126.8" oy="197.143" oz="962.5"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/e1k6b3hrm5qdobrmvyl5/vtour/panos/e1k6b3hrm5qdobrmvyl5.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="1047.7,-131.9,-114.5" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_029" name="jypano_029" ox="114.5" oy="198.91" oz="1047.7"/>  
+  <scene model="true" name="scene_030" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/tfdof4tsbo3nu523x3rn/vtour/panos/tfdof4tsbo3nu523x3rn.tiles/thumb.jpg" title="34黄金货币" type="null"> 
+    <view hlookat="4.54432853428922" vlookat="0.8474688847327448" fovtype="MFOV" fov="128.30183079967995" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/tfdof4tsbo3nu523x3rn/vtour/panos/tfdof4tsbo3nu523x3rn.tiles/preview.jpg"/>  
+    <image style="jypano_030" ox="-227.1" oy="194.198" oz="370.5"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/tfdof4tsbo3nu523x3rn/vtour/panos/tfdof4tsbo3nu523x3rn.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="236.10000000000002,-64.1,64.4" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_030" name="jypano_030" ox="-64.4" oy="215.941" oz="236.10000000000002"/>  
+  <scene model="true" name="scene_031" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/h2kv226h3jlo4s1ad6kp/vtour/panos/h2kv226h3jlo4s1ad6kp.tiles/thumb.jpg" title="31招金" type="null"> 
+    <view hlookat="-92.40505891830479" vlookat="5.265356099011671" fovtype="MFOV" fov="128.30183079967995" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/h2kv226h3jlo4s1ad6kp/vtour/panos/h2kv226h3jlo4s1ad6kp.tiles/preview.jpg"/>  
+    <image style="jypano_031" ox="344.1" oy="196.939" oz="969"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/h2kv226h3jlo4s1ad6kp/vtour/panos/h2kv226h3jlo4s1ad6kp.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="1054.4,-118.5,-377.59999999999997" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_031" name="jypano_031" ox="377.59999999999997" oy="241.891" oz="1054.4"/>  
+  <scene model="true" name="scene_032" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/14oo43ojizsll4fof7rx/vtour/panos/14oo43ojizsll4fof7rx.tiles/thumb.jpg" title="26产业链" type="null"> 
+    <view hlookat="92.8264691438861" vlookat="-2.191603006288569" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/14oo43ojizsll4fof7rx/vtour/panos/14oo43ojizsll4fof7rx.tiles/preview.jpg"/>  
+    <image style="jypano_032" ox="156.7" oy="198.958" oz="1304.3"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/14oo43ojizsll4fof7rx/vtour/panos/14oo43ojizsll4fof7rx.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="1348.9,-69.5,-280.4" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_032" name="jypano_032" ox="280.4" oy="203.161" oz="1348.9"/>  
+  <scene model="true" name="scene_033" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/wutsw1i82nt0eluutw80/vtour/panos/wutsw1i82nt0eluutw80.tiles/thumb.jpg" title="25黄金用途" type="null"> 
+    <view hlookat="448.40581260738065" vlookat="-1.6849915238415651" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/wutsw1i82nt0eluutw80/vtour/panos/wutsw1i82nt0eluutw80.tiles/preview.jpg"/>  
+    <image style="jypano_033" ox="-146.4" oy="199.102" oz="1338.7"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/wutsw1i82nt0eluutw80/vtour/panos/wutsw1i82nt0eluutw80.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="1364.8,-80.5,40.6" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_033" name="jypano_033" ox="-40.6" oy="211.778" oz="1364.8"/>  
+  <scene model="true" name="scene_034" onstart="showFlootHotspot();" thumburl="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/u54aprx1wuzf6jd8d0jn/vtour/panos/u54aprx1wuzf6jd8d0jn.tiles/thumb.jpg" title="30招金" type="null"> 
+    <view hlookat="185.12743887593842" vlookat="4.894664300323922" fovtype="MFOV" fov="135.5" fovmin="21.8" fovmax="135.5" limitview="lookat" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" isCheck="false"/>  
+    <preview url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/u54aprx1wuzf6jd8d0jn/vtour/panos/u54aprx1wuzf6jd8d0jn.tiles/preview.jpg"/>  
+    <image style="jypano_034" ox="685.6" oy="197.205" oz="967.1"> 
+      <cube url="%HTMLPATH%/assets/2001699916475224064/1948407602249187328/backup_rotate/u54aprx1wuzf6jd8d0jn/vtour/panos/u54aprx1wuzf6jd8d0jn.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2304,4608"/>  
+      <depthmap background="pano" center="968.6999999999999,-85.0,-790.5" hittest="true" subdiv="10000" url="%HTMLPATH%/assets/2001699916475224064/others/b0d3b8579e404c24.obj" enabled="true"/> 
+    </image> 
+  </scene>  
+  <style linkedscene="scene_034" name="jypano_034" ox="790.5" oy="219.738" oz="968.6999999999999"/> 
+</krpano>
