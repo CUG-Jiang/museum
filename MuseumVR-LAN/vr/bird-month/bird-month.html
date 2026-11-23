@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#314b5a">
+    <title>“爱鸟月”特展 · 自然博物馆</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="./plugins/pannellum/pannellum.css">
+    <link rel="stylesheet" href="./exhibit.css">
+    <script defer src="./plugins/pannellum/pannellum.js"></script>
+    <script defer src="./exhibit.js"></script>
+</head>
+<body>
+    <main id="tour" class="tour">
+        <div id="panorama" class="panorama" aria-label="展厅 360° 全景" aria-busy="true"></div>
+
+        <header class="identity">
+            <h1>“爱鸟月”特展</h1>
+            <div id="current-scene" class="current-scene" aria-live="polite">正在载入</div>
+        </header>
+
+        <button id="clear-screen" type="button" aria-label="清屏" title="清屏">
+            <span class="broom-icon" aria-hidden="true"></span>
+        </button>
+
+        <section class="dock" aria-label="展厅场景导航">
+            <div id="scene-gallery" class="scene-gallery" role="group" aria-label="全部场景" hidden></div>
+            <button id="gallery-toggle" type="button" class="gallery-toggle" aria-label="显示场景照片" title="显示场景照片" aria-controls="scene-gallery" aria-expanded="false" disabled>
+                <span class="gallery-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+            </button>
+        </section>
+
+        <button id="exit-clear-screen" type="button" hidden>退出清屏</button>
+
+        <div id="notice" class="notice" role="alert" hidden>
+            <p id="notice-text"></p>
+            <button id="reload" type="button">重新加载</button>
+        </div>
+    </main>
+</body>
+</html>
